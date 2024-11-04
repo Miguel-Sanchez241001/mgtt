@@ -1,0 +1,121 @@
+!SESSION 2024-11-04 15:05:43.008 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.20 - pwa6480sr5fp20-20180802_01(SR5 FP20)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20180731_393394 (JIT enabled, AOT enabled)
+OpenJ9   - bd23af8
+OMR      - ca1411c
+IBM      - 98805ca
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rad.product.v97.ide
+Command-line arguments:  -data D:\workspace-aplicaciones-documentos\mgtt-M\software\app -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rad.product.v97.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-11-04 15:05:44.910
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register a package for 'http://www.ibm.com/xmlns/prod/websphere/wrd/extensions/v6.0.0/'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-11-04 15:05:44.915
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register an extension parser for 'wrd_linkers'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-11-04 15:05:44.915
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register an extension parser for 'dyn_annotModel'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-11-04 15:06:14.045
+!MESSAGE No se ha definido el tipo de componente de tiempo de ejecución com.ibm.ws.cftools.server. Se utiliza en el plug-in com.ibm.ws.st.jee.batch.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-11-04 15:06:14.050
+!MESSAGE No se ha definido el tipo de componente de tiempo de ejecución com.ibm.ws.cftools.server. Se utiliza en el plug-in com.ibm.ws.st.jee.batch.core.
+
+!ENTRY org.eclipse.ui 4 4 2024-11-04 15:08:05.477
+!MESSAGE El componente referido no existe todavía: com.ibm.iwt.ui.thumbnailView.
+
+!ENTRY org.eclipse.ui 4 4 2024-11-04 15:08:05.478
+!MESSAGE El componente referido no existe todavía: com.ibm.iwt.ui.thumbnailView.
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:18:53.165
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:18:53.166
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:18:53.236
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:18:53.236
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:18:53.319
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:18:53.319
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:21:23.381
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:21:23.381
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.comp [in src [in Mgtt]]]] no existe
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:21:23.394
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:21:23.394
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.interfaz [in src [in Mgtt]]]] no existe
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2024-11-04 15:21:23.427
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-04 15:21:23.427
+!MESSAGE package-info [in package-info.java [in pe.bn.com.mgtt.infrastructure.service.external.domain.message [in src [in Mgtt]]]] no existe
